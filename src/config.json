@@ -1,0 +1,10 @@
+{
+        "url": "https://www.cineplex.com/api/v1/theatres?language=en-us&range=100000&skip=0&take=1"
+        "endpoints" :
+            {"theatres":"data"
+                "elements": ["id", "name"]}
+        "url": "https://www.cineplex.com/api/v1/movies?language=en-us&marketLanguageCodeFilter=true&movieType=1&showTimeType=0&showtimeStatus=0&skip=0&take=1000"
+        "endpoints" :
+            {"films":"data"
+                "elements": ["id", "name"]}
+        }
